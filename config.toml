@@ -1,0 +1,40 @@
+baseURL = 'https://singulaire.github.io/'
+title= "Tom Blau"
+theme = "hugo-theme-mainroad"
+languageCode = "en-us"
+paginate = 5000 #frontpage pagination
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+  header_image = "images/factorio.jpg"
+  title = "But It Could Be Better"
+  SEOTitle = "Tom Blau Blog"
+  keyword = "Tom, Blau, Machine Learning, Reinforcement Learning, Design of Experiments"
+
+
+  # Sidebar settings
+  sidebar_about_description = "Scientist. Reinforcement learning that actually matters"
+  about_me = true
+
+
+  featured_tags = true 
+  featured_condition_size = 2 # How many posts have to have a given tag to be featured (greater-than)
+
+  title_404 = "This url doesn't point to anything..."
+
+  omit_categories = false
+
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/top/about/"
+
+  [params.social]
+  rss            = true
+  email          = "tomblau@gmail.com"
+  linkedin       = "https://au.linkedin.com/in/tom-blau-036610a4"
+  github         = "https://github.com/singulaire"
