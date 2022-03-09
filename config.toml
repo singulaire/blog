@@ -1,5 +1,5 @@
 baseURL = 'https://singulaire.github.io/'
-title= "But It Could Be Better"
+title= "Tom Blau - But It Could Be Better"
 theme = "hugo-theme-mainroad"
 languageCode = "en-us"
 paginate = 5 #frontpage pagination
@@ -26,6 +26,10 @@ paginate = 5 #frontpage pagination
   title_404 = "This url doesn't point to anything..."
 
   omit_categories = false
+  
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
 
 
 [Params.logo]
@@ -51,5 +55,11 @@ paginate = 5 #frontpage pagination
 [Params.widgets.social]
   rss            = true
   email          = "tomblau@gmail.com"
-  linkedin       = "https://au.linkedin.com/in/tom-blau-036610a4"
-  github         = "https://github.com/singulaire"
+  linkedin       = "tom-blau-036610a4"
+  github         = "singulaire"
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'about'
+  url='/top/about/'
