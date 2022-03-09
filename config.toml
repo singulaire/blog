@@ -1,8 +1,8 @@
 baseURL = 'https://singulaire.github.io/'
-title= "Tom Blau"
+title= "But It Could Be Better"
 theme = "hugo-theme-mainroad"
 languageCode = "en-us"
-paginate = 5000 #frontpage pagination
+paginate = 5 #frontpage pagination
 
 [markup]
   [markup.goldmark]
@@ -10,9 +10,7 @@ paginate = 5000 #frontpage pagination
       unsafe = true
 
 
-[params]
-  header_image = "images/factorio.jpg"
-  title = "But It Could Be Better"
+[Params]
   SEOTitle = "Tom Blau Blog"
   keyword = "Tom, Blau, Machine Learning, Reinforcement Learning, Design of Experiments"
 
@@ -29,11 +27,28 @@ paginate = 5000 #frontpage pagination
 
   omit_categories = false
 
-  [[params.addtional_menus]]
-  title =  "ABOUT"
-  href =  "/top/about/"
 
-  [params.social]
+[Params.logo]
+  image = "images/factorio.jpg" # Logo image. Path relative to "static"
+  title = "But It Could Be Better" # Logo title, otherwise will use site title
+  subtitle = "Ponderings on ML" # Logo subtitle
+
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
   rss            = true
   email          = "tomblau@gmail.com"
   linkedin       = "https://au.linkedin.com/in/tom-blau-036610a4"
