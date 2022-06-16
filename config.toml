@@ -58,8 +58,10 @@ paginate = 5 #frontpage pagination
   linkedin       = "tom-blau-036610a4"
   github         = "singulaire"
 
-[menu]
-[[menu.main]]
-  identifier = 'about'
-  name = 'about'
-  url='/top/about/'
+[[params.additional_menus]]
+  title = 'ABOUT'
+  href = '/top/about/'
+
+[[params.additional_menus]]
+  title='PUBLICATIONS'
+  href='/top/publications/'
