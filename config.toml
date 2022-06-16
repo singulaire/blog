@@ -60,9 +60,11 @@ paginate = 5 #frontpage pagination
 
 [menu]
 [[menu.main]]
-  title = 'ABOUT'
-  href = '/top/about/'
+  identifier = 'about'
+  name = 'about'
+  url='/top/about/'
 
 [[menu.main]]
-  title='PUBLICATIONS'
-  href='/top/publications/'
+  identifier = 'publications'
+  name='publications'
+  url='/top/publications/'
