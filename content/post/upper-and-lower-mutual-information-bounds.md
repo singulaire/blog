@@ -77,6 +77,6 @@ So what does this all mean? In theory, we can maximise the sNMC upper bound, and
 
 
 
-References:
+**References:**
 
 Foster, A., Ivanova, D. R., Malik, I., & Rainforth, T. "Deep adaptive design: Amortizing sequential bayesian experimental design." International Conference on Machine Learning. PMLR, 2021.
