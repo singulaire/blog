@@ -17,6 +17,7 @@ paginate = 5 #frontpage pagination
 
   # Sidebar settings
   sidebar_about_description = "Scientist. Reinforcement learning that actually matters"
+  sidebar_avater = "images/headshot1.jpg"
   about_me = true
 
 
@@ -28,8 +29,8 @@ paginate = 5 #frontpage pagination
   omit_categories = false
   
   mathjax = true # Enable MathJax
-  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  mathjaxPath = "https://cdn.mathjax.org/mathjax/latest/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_SVG" # MathJax config
 
 
 [Params.logo]
