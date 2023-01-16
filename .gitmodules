@@ -1,10 +1,7 @@
-[submodule "themes/hugo-theme-mainroad"]
-	path = themes/hugo-theme-mainroad
-	url = git@github.com:Vimux/Mainroad.git
-[submodule "public"]
-	path = public
-	url = git@github.com:singulaire.github.io.git
-	branch = master
 [submodule "themes/mainroad"]
 	path = themes/mainroad
 	url = https://github.com/vimux/mainroad.git
+[submodule "public"]
+	path = public
+	url = git@github.com:singulaire/singulaire.github.io.git
+	branch = master
