@@ -1,6 +1,6 @@
 baseURL = 'https://singulaire.github.io/'
 title= "Tom Blau - But It Could Be Better"
-theme = "hugo-theme-mainroad"
+theme = "mainroad"
 languageCode = "en-us"
 paginate = 5 #frontpage pagination
 
@@ -9,6 +9,10 @@ paginate = 5 #frontpage pagination
     [markup.goldmark.renderer]
       unsafe = true
 
+[Author]
+  name="Tom Blau"
+  bio="I am a reinforcement learning expert interested in solving real-world problems with RL"
+  avatar="images/headshot1.jpg"
 
 [Params]
   SEOTitle = "Tom Blau Blog"
