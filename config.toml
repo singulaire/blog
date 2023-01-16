@@ -1,0 +1,75 @@
+baseURL = 'https://singulaire.github.io/'
+title= "Tom Blau - But It Could Be Better"
+theme = "mainroad"
+languageCode = "en-us"
+paginate = 5 #frontpage pagination
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[Author]
+  name="Tom Blau"
+  bio="I am a reinforcement learning expert interested in solving real-world problems with RL"
+  avatar="images/headshot1.jpg"
+
+[Params]
+  SEOTitle = "Tom Blau Blog"
+  keyword = "Tom, Blau, Machine Learning, Reinforcement Learning, Design of Experiments"
+
+
+  # Sidebar settings
+  sidebar_about_description = "Scientist. Reinforcement learning that actually matters"
+  sidebar_avater = "images/headshot1.jpg"
+  about_me = true
+
+
+  featured_tags = true 
+  featured_condition_size = 2 # How many posts have to have a given tag to be featured (greater-than)
+
+  title_404 = "This url doesn't point to anything..."
+
+  omit_categories = false
+  
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdn.mathjax.org/mathjax/latest/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_SVG" # MathJax config
+
+
+[Params.logo]
+  image = "images/factorio.jpg" # Logo image. Path relative to "static"
+  title = "But It Could Be Better" # Logo title, otherwise will use site title
+  subtitle = "Ponderings on ML" # Logo subtitle
+
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  rss            = true
+  email          = "tomblau@gmail.com"
+  linkedin       = "tom-blau-036610a4"
+  github         = "singulaire"
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'about'
+  url='/top/about/'
+
+[[menu.main]]
+  identifier = 'publications'
+  name='publications'
+  url='/top/publications/'
