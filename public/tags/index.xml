@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tom Blau - But It Could Be Better</title>
+    <link>https://singulaire.github.io/tags/</link>
+    <description>Recent content in Tags on Tom Blau - But It Could Be Better</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://singulaire.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>design of experiments</title>
+      <link>https://singulaire.github.io/tags/design-of-experiments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://singulaire.github.io/tags/design-of-experiments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mutual information</title>
+      <link>https://singulaire.github.io/tags/mutual-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://singulaire.github.io/tags/mutual-information/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notation</title>
+      <link>https://singulaire.github.io/tags/notation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://singulaire.github.io/tags/notation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
